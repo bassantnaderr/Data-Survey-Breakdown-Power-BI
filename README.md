@@ -35,6 +35,19 @@ The dataset is based on a survey with the following questions:
 - **Power Query**: Used for data transformation and cleaning.
 ---
 
+## Visualizations
+
+![Data Professional Survey Breakdown](Data-Survey-Breakdown.PNG)
+
+The dashboard provides an interactive summary of:
+- **Country distribution of survey takers** (tree map).
+- **Average salary by job title** (clustered bar chart).
+- **Favorite programming languages** (bar chart).
+- **Difficulty in breaking into data** (donut chart).
+- **Happiness levels with work-life balance and salary** (gauge charts).
+  
+---
+
 ## Key Insights
 
 1. **Country of Survey Takers**:
@@ -51,33 +64,11 @@ The dataset is based on a survey with the following questions:
 
 5. **Difficulty in Breaking into Data**:
    - A significant portion of participants found the process of breaking into the data field "neither easy nor difficult," though a notable minority described it as "very difficult."
-
----
-
-## Visualizations
-
-![Data Professional Survey Breakdown](Data-Survey-Breakdown.PNG)
-
-The dashboard provides an interactive summary of:
-- **Country distribution of survey takers** (tree map).
-- **Average salary by job title** (clustered bar chart).
-- **Favorite programming languages** (bar chart).
-- **Difficulty in breaking into data** (donut chart).
-- **Happiness levels with work-life balance and salary** (gauge charts).
-
-
 ---
 
 ## Limitations
-
-
-1. **Self-Reported Data**:
    - Survey responses may include biases or inaccuracies due to self-reporting.
-
-2. **Granularity**:
    - Some fields were generalized or grouped for analysis, which might oversimplify nuanced data points.
-
-3. **"Others" Category**:
    - Various responses in the dataset were grouped under "Others" for simplicity.
 
 
