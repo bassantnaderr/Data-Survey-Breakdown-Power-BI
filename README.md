@@ -1,42 +1,70 @@
-# Data Analytics Survey Insights
+# Data Professional Survey Breakdown
 
-This project showcases a comprehensive analysis of a data analytics survey dataset. The dataset includes responses from professionals across various industries, highlighting their experiences, preferences, and challenges in the data field. The analysis was performed using **Power BI**, leveraging features like Power Query for data cleaning and DAX for advanced calculations.
+This project provides insights into the experiences and preferences of data professionals across various roles and industries. The dataset analyzed represents responses from 619 survey participants. The data was thoroughly cleaned in **Power BI** using **Power Query** for data transformation and **DAX functions** to create calculated columns and measures. The visualizations help uncover trends in salary, programming language preferences, work-life balance, and the challenges faced in breaking into the data field.
 
+---
+## Survey Questions
+
+The dataset is based on a survey with the following questions:
+
+1. **Which Title Best Fits your Current Role?**
+2. **Did you switch careers into Data?**
+3. **What is your current yearly salary (in USD)?**
+4. **What industry do you work in?**
+5. **What is your favorite programming language?**
+6. **How happy are you in your current position with the following?**
+   - Salary
+   - Work/Life Balance
+   - Coworkers
+   - Management
+   - Upward Mobility
+   - Learning New Things
+7. **How difficult was it for you to break into Data?**
+8. **If you were to look for a new job today, what would be the most important thing to you?**
+9. **What is your gender?** (Male/Female)
+10. **What is your current age?**
+11. **Which country do you live in?**
+12. **What is your highest level of education?**
+13. **What is your ethnicity?**
 
 ---
 
 ## Tools Used
 
-1. **Power BI**
-   - **Power Query**: For data cleaning and transformations, including creating custom columns and standardizing formats.
-   - **DAX (Data Analysis Expressions)**: For advanced calculations and aggregations.
-
-2. **Dataset**: A survey dataset containing fields such as role, salary, career satisfaction, programming language preferences, and difficulty in breaking into the data field.
-
+- **Power BI**: For data visualization, cleaning, and transformation.
+- **Power Query**: Used for data transformation and cleaning.
 ---
 
 ## Key Insights
 
-1. **Salary Trends**:
-   - The analysis reveals that **Data Scientists** earn the highest average salaries among the surveyed roles.
+1. **Country of Survey Takers**:
+   - The majority of respondents are from the **United States**, with notable representation from **Canada**, **India**, and the **United Kingdom**.
 
-2. **Career Satisfaction**:
-   - Respondents reported relatively low levels of satisfaction with their **salary**, while satisfaction with **work-life balance** was a bit higher.
+2. **Average Salary by Job Title**:
+   - **Data Scientists** report the highest average salary, followed by **Data Engineers** and **Data Architects**. Entry-level roles such as **Database Developers** have comparatively lower earnings.
 
-3. **Challenges in Breaking into Data**:
-   - Most respondents found breaking into the data field to be **"neither easy nor difficult"**, indicating diverse experiences in entering the industry.
+3. **Favorite Programming Languages**:
+   - **Python** is the most popular programming language across all job roles, significantly outperforming others such as **R**, **JavaScript**, and **C/C++**.
 
-4. **Programming Language Preferences**:
-   - **Python** was the most popular programming language across various job roles.
+4. **Happiness Levels**:
+   - Respondents rated their satisfaction with **work-life balance** slightly higher (average: 5.74/10) than with **salary** (average: 4.27/10).
+
+5. **Difficulty in Breaking into Data**:
+   - A significant portion of participants found the process of breaking into the data field "neither easy nor difficult," though a notable minority described it as "very difficult."
+
+---
 
 ## Visualizations
 
-Here are the key visualizations included in this report:
-- **Tree Map**: Country distribution of survey takers.
-- **Clustered Column Chart**: Average salary by job title.
-- **Gauge Charts**: Career satisfaction metrics.
-- **Donut Chart**: Difficulty levels in breaking into data.
-- **Bar Chart**: Favorite programming languages by job title.
+![Data Professional Survey Breakdown](Data-Survey-Breakdown.PNG)
+
+The dashboard provides an interactive summary of:
+- **Country distribution of survey takers** (tree map).
+- **Average salary by job title** (clustered bar chart).
+- **Favorite programming languages** (bar chart).
+- **Difficulty in breaking into data** (donut chart).
+- **Happiness levels with work-life balance and salary** (gauge charts).
+
 
 ---
 
@@ -50,7 +78,8 @@ Here are the key visualizations included in this report:
    - Some fields were generalized or grouped for analysis, which might oversimplify nuanced data points.
 
 3. **"Others" Category**:
-   - Various responses in the dataset were grouped under "Others" for simplicity, which might obscure specific details or trends in unique responses.
+   - Various responses in the dataset were grouped under "Others" for simplicity.
+
 
 
 
